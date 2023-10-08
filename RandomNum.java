@@ -19,10 +19,10 @@ public class RandomNum {
 
             if (userInput > randomNumber) {
                 System.out.println("Too high");
-            } else if (userInput < randomNumber) {
+            } 
+            
+            if (userInput < randomNumber) {
                 System.out.println("Too low");
-            } else {
-                System.out.println("Congratulations! You guessed the number!");
             }
 
         } while (userInput != randomNumber);
