@@ -27,6 +27,7 @@ public class RandomNum {
 
         } while (userInput != randomNumber);
 
+        System.out.println("Congratulations! You guessed the number!");
         System.out.println("The number was " + randomNumber);
 
         scanner.close();
