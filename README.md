@@ -1,1 +1,1 @@
-This code was written to practice github 
+This was written to practice github 
