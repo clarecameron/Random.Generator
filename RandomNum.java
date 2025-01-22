@@ -18,11 +18,11 @@ public class RandomNum {
             userInput = scanner.nextInt();
 
             if (userInput > randomNumber) {
-                System.out.println("Too high");
+                System.out.println("Too high!");
             } 
             
             if (userInput < randomNumber) {
-                System.out.println("Too low");
+                System.out.println("Too low!");
             }
 
         } while (userInput != randomNumber);
